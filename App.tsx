@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { AppState, AppView, UserProfile } from './types';
-import { SplashScreen } from './screens/SplashScreen';
-import { OnboardingScreen } from './screens/OnboardingScreen';
-import { DashboardScreen } from './screens/DashboardScreen';
-import { DetailsScreen } from './screens/DetailsScreen';
-import { SettingsScreen } from './screens/SettingsScreen';
-import { LevelTwoSetupScreen } from './screens/LevelTwoSetupScreen';
-import { LevelThreeSetupScreen } from './screens/LevelThreeSetupScreen';
+import { SplashScreen } from './screens/SplashScreen.tsx';
+import { OnboardingScreen } from './screens/OnboardingScreen.tsx';
+import { DashboardScreen } from './screens/DashboardScreen.tsx';
+import { DetailsScreen } from './screens/DetailsScreen.tsx';
+import { SettingsScreen } from './screens/SettingsScreen.tsx';
+import { LevelTwoSetupScreen } from './screens/LevelTwoSetupScreen.tsx';
+import { LevelThreeSetupScreen } from './screens/LevelThreeSetupScreen.tsx';
 
 const STORAGE_KEY = 'separador_pj_state_v1';
 
